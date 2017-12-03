@@ -1,0 +1,202 @@
+/*
+ Theme Name:     Master Arts Plastering
+ Theme URI:      http://www.elegantthemes.com/gallery/foxy/
+ Description:    Responsive Child Theme - Master Arts
+ Author:         Sean Tilbury
+ Template:       responsive
+ Version:        1.0.0
+*/
+ 
+@import url("../responsive/style.css");
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+a.zoom {display:none;}
+/*Custom Fonts*/
+@font-face {
+    font-family: 'canterburyregular';
+    src: url('canterbury-webfont.eot');
+    src: url('canterbury-webfont.eot?#iefix') format('embedded-opentype'),
+         url('canterbury-webfont.woff2') format('woff2'),
+         url('canterbury-webfont.woff') format('woff'),
+         url('canterbury-webfont.ttf') format('truetype'),
+         url('canterbury-webfont.svg#canterburyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*end custom font*/
+
+body {color:#542A20}
+a {color: #542A20} /*link color*/
+p {color: #542A20} /*paragraph color*/
+
+li.product h3 a {color:#green}
+
+h1.page-title {font-family: 'canterburyregular', serif; font-size: 2.0em; letter-spacing:0.08em;color: #542A20} /*page title on all pages apart from front page*/
+
+.woocommerce-breadcrumb::after {font-size: 3em!important}
+
+.front-page #wrapper {margin: 0px auto 8px auto;}
+
+h6.title-archive {display: none;} /*hides blog archies text on latest news*/
+.post-meta {display:none;} /*hides post info on latest news*/
+
+#header {}
+/*Email and telephone links in header*/
+.top-menu {float:none; }
+.top-menu li:nth-child(1){float:left;}
+.top-menu li:nth-child(2){float:right;}
+.top-menu li a {font-family: 'PT Serif', serif; font-size: 1.2em;color: #542A20;}
+
+/*logo Positioning **desktop** */
+#logo {float: none; clear: both; position: relative; left: 37%;}
+
+.huge_it_slideshow_dots_thumbnails_2 {display:none!important} /*hides slider nav dots*/
+
+.widget-title h3, .widget-title-home h3 {color: #542A20;}
+h1.entry-title.post-title {font-family: 'canterburyregular', serif; font-size: 2.0em; letter-spacing:0.08em;color: #542A20}
+h2.entry-title.post-title a {font-family: 'canterburyregular', serif; font-size: 1.2em; letter-spacing:0.08em;color: #542A20} /*blog page heading*/
+#widgets .tagcloud, #widgets .textwidget {color: #542A20;}
+
+/*Frontpage button link to products*/
+a.blue {
+border: 1px solid #542A20
+color: #fff;
+background-color: #00CC00;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#00CC00), to(#00CC00));
+background-image: -webkit-linear-gradient(top, #00CC00, #00CC00);
+background-image: -moz-linear-gradient(top, #00CC00, #00CC00);
+background-image: -ms-linear-gradient(top, #00CC00, #00CC00);
+background-image: -o-linear-gradient(top, #00CC00, #00CC00);
+background-image: linear-gradient(top, #00CC00, #00CC00);
+text-shadow: 0 -1px 0 #115290;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#542A20, endColorstr=#1874cd);
+}
+a.blue:hover {
+border: 1px solid #00CC00;
+color: #fff;
+background-color: #542A20;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#4f9eea), to(#542A20));
+background-image: -webkit-linear-gradient(top, #542A20, #542A20);
+background-image: -moz-linear-gradient(top, #542A20, #542A20);
+background-image: -ms-linear-gradient(top, #542A20, #542A20);
+background-image: -o-linear-gradient(top, #542A20, #542A20);
+background-image: linear-gradient(top, #542A20, #542A20);
+text-shadow: 0 -1px 0 #115290;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#542A20, endColorstr=#1874cd);
+}
+
+
+/*main menu positioning and width*/
+.main-nav {float:none;margin-left: auto; margin-right: auto; width: 55%;}
+
+/*main menu */
+.menu { 
+	clear: both;
+	margin: 0 auto;
+	background-color: transparent;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#542A20), to(#542A20));
+	background-image: -webkit-linear-gradient(top, #542A20, #542A20);
+	background-image: -moz-linear-gradient(top, #542A20, #542A20);
+	background-image: -ms-linear-gradient(top, #542A20, #542A20);
+	background-image: -o-linear-gradient(top, #542A20, #542A20);
+	background-image: linear-gradient(top, #542A20, #542A20);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#542A20, endColorstr=#713D1D);
+	}
+
+.menu {background-image:none; background-color: transparent;border-style: solid;border-top: thin double #fff;margin-top:0.5em}
+
+.menu a {border-left: 0px;color: #542A20;font-family: 'PT Serif', serif;font-weight: normal; font-size: 1.2em; line-height: 3.0em; padding: 0 1.05em;text-shadow: 0 -1px 0 #713D1D;}
+
+
+.featured-title {font-family: 'canterburyregular', serif; font-size: 2.1em; padding-top: 1em; letter-spacing:0.10em;color: #542A20}
+
+.featured-subtitle {font-family: 'PT Serif', serif; font-size: 1.3em; color: #542A20}
+
+#featured p {font-family: 'PT Serif', serif; font-size: 1.08em; line-height: 1.8em; margin: 0em; }
+
+#content-woocommerce {width:100%}
+
+.current_page_item a, .menu .current-menu-item a {background-color: #FFFFFF;}
+
+mark.count {display:none;} /*hides amount of items in category*/
+
+li.product-category h3 {color: #542A20}
+
+
+
+.woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button {width: 80%;
+text-align: center}
+
+.product_title {color: #542A20 }
+.footer-menu {display:none}
+
+/*Search bar*/
+.widget-wrapper select, .widget-wrapper input[type="text"], .widget-wrapper input[type="password"], .widget-wrapper input[type="email"]{width: 70%;}
+
+::-webkit-input-placeholder {color: #542A20;}
+:-moz-placeholder { /* Firefox 18- */color: #542A20;}
+::-moz-placeholder {  /* Firefox 19+ */color: #542A20;}
+:-ms-input-placeholder {color: #542A20;} /*placeholder text color*/
+
+a.button, input[type="reset"], input[type="button"], input[type="submit"] {color:#542a20; border: 1px solid #542a20;}
+a.button, input[type="reset"], input[type="button"], input[type="submit"]:hover { border: 1px solid #542a20;background: #00cc00;} /*button*/
+
+select, input[type="text"], input[type="password"], input[type="email"] {border: 1px solid #542a20; border-bottom-color: #542a20;} /*search box*/
+
+#searchform {color: #542a20;}
+
+.woocommerce ul.products li.product h3,
+.woocommerce-page ul.products li.product h3
+{text-align: center}
+
+.woocommerce ul.products li.product a, .woocommerce-page ul.products li.product a 
+{margin-left: 16%;}
+
+/* =Responsive (Mobile) Design
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 1025px) {
+	.menu a {font-size: 1.18em}
+}
+
+@media screen and (max-width: 980px) {	
+    	.menu {text-align:center}
+    	.menu li {display:inline-block;float:none;margin-left: -5px;}
+    	.menu li li {display:block;text-align:left}
+	.top-menu li a { font-size: 1.0em;}
+	.main-nav {float:none;margin-left: auto; margin-right: auto; width: 80%;}
+	.woocommerce ul.products li.product a, .woocommerce-page ul.products li.product a 
+		{margin-left: 3%;}
+	#featured p {font-size: 1.0em;}
+}
+
+@media screen and (max-width: 768px) {
+	.woocommerce ul.products li.product a, .woocommerce-page ul.products li.product a 
+		{margin-left: 20%;}
+}
+
+@media screen and (max-width: 650px) {
+	#container {padding: 0 12px;} /*reduces padding on smaller screen*/
+	#featured p {padding: 0 10px 0 10px;}
+	#logo {position:static}
+	#logo img {width:65%;}
+	.top-menu li a { font-size: 1.0em;}
+	.top-menu {float:none; }
+	.top-menu li:nth-child(1){float:left;}
+	.top-menu li:nth-child(2){float:left;}
+	.footer-menu {display:block}
+	.woocommerce ul.products li.product a, .woocommerce-page ul.products li.product a 
+		{margin-left: 16%;}
+}
+
+@media screen and (max-width: 480px) {
+.woocommerce ul.products li.product a, .woocommerce-page ul.products li.product a 
+		{margin-left: 1%;}
+}
+
+@media screen and (max-width: 320px) {
+}
+
+@media screen and (max-width: 240px) {
+}
